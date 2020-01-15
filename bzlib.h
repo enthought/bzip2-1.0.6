@@ -196,6 +196,11 @@ BZ_EXTERN void BZ_API(BZ2_bzWriteClose64) (
       unsigned int* nbytes_out_lo32, 
       unsigned int* nbytes_out_hi32
    );
+
+BZ_EXTERN unsigned long long BZ_API(BZ2_bzoffset) (
+      BZFILE* b
+   );
+
 #endif
 
 
